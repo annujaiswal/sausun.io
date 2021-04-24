@@ -1,0 +1,184 @@
+
+html, body
+{
+	height: 100%;
+	width: 100%;
+}
+
+.my-nav{
+	background-color: rgba(0,0,0,0.7) ! important;
+
+}
+
+/* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* The subnavigation menu */
+.subnav {
+  float: left;
+
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #00688B;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  
+  background-color: #00688B;
+  
+  align-content: center;
+  z-index: 1;
+
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.my-nav .nav-link {color: #ffffff; font-size: 18px; }
+.my-nav .nav-link: hover {color: #a32f80; }
+.fa-bars{color: white;}
+#home{background-image: url(res/roof.jpg);background-position: center center;background-attachment: fixed; background-size: cover; width: 100%; height: 100%;}
+.landing-text{
+	
+	position: absolute;
+	top: 38%;
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+
+.landingheading1{font-size: 70px; text-transform: capitalize;}
+.landingheading2{font-size: 35px; text-transform: capitalize;}
+/*Solutions we provide start*/
+.top-heading p{width: 100%; text-align: center; color: #787878; font-size: 70px; text-transform: capitalize;}
+
+.card1,.card2,.card3, {text-align: center;
+	width: 25rem;
+	height: 30rem;
+border: none;
+	border-radius: 0px 30px 0px 30px;
+	box-shadow: -webkit-box-shadow: -19px 19px 43px 0px rgba(0,0,0,0.61);
+-moz-box-shadow: -19px 19px 43px 0px rgba(0,0,0,0.61);
+box-shadow: -19px 19px 43px 0px rgba(0,0,0,0.61);
+}
+
+.card i{color: deeppink; font-size: 60px; margin-top: 25px;}
+
+
+.card .card-title{font-weight: bold; font-size: 25px; color: dimgray;}
+.card .card-text{color: #737373; font-weight: 600;}
+.card1,.card3{background-color: rgba(0,0,0,0.1); transition: 1s;}
+.card1:hover,.card3:hover{background-color: rgba(0,0,0,0.05); transition: 1s;}
+.card2{background-color: rgba(0,0,0,0.05); transition: 1s;}
+.card2:hover{background-color: rgba(0,0,0,0.1); transition: 1s;}
+
+/*solutions we provide end*/
+/*Our track record speaks for itself start*/
+.reason-to-visit{background-image: url(res/bg2.jpg); background-size: cover; background-attachment: fixed;background-position: center center;}
+.card4{background-color: transparent; border: none; height: 300px; }
+.pink-text{color: deeppink;}
+.card4 .card-title{color: deeppink;}
+.card4 .card-text{color: aliceblue;font-size: 12px; text-align: justify;}
+
+/*Our track record speaks for itself end*/
+/* our work start*/
+.card5 {text-align: center;
+	width: 20rem;
+	height: 30rem;
+border: none;
+	
+	
+}
+.card5img{width: 20rem; height: 20rem;}
+
+/* our work end */
+/*why u come here start*/
+
+.custom-btn{background-color: white; border-color: deeppink; color: dimgray;transition: 1s;}
+.custom-btn:hover{background-color: deeppink; border-color: white; color: white;transition: 1s;}
+.bg-gray{background-color: #f0f0f0;}
+.hero-heading{color: deeppink;font-size: 35px;}
+.hero-paragraph{color: #767676; font-size: 18px;}
+.hero-img{border-radius: 0px 30px 0px 30px;}
+
+/*why u come here end*/
+/*Reasons to Visit Us start*/
+.reason-to-visit{background-image: url(res/bg2.jpg); background-size: cover; background-attachment: fixed;background-position: center center;}
+.card4{background-color: transparent; border: none;}
+.pink-text{color: deeppink;}
+.card4 .card-title{color: deeppink;}
+.card4 .card-text{color: aliceblue;font-size: 18px;}
+
+/*Reasons to Visit Us end*/
+
+/*team start*/
+
+.card-team{border: none}
+.card-team .card-img-top{border-radius: 0px 30px 0px 30px;
+box-shadow: -webkit-box-shadow: -18px 17px 50px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: -18px 17px 50px -12px rgba(0,0,0,0.75);
+box-shadow: -18px 17px 50px -12px rgba(0,0,0,0.75);
+}
+
+/*team end*/
+/*paralalxeffect start*/
+.proud{background-image: url(img/5.jpg); background-attachment: fixed; background-size: cover; background-position: center center;}
+
+
+/*paralalxeffect end*/
+/*blog start*/
+
+.card-blog{border: none;}
+.card-blog .card-img-top{border-radius: 0px 30px 0px 30px;}
+
+/*blog end*/
+
+
+/*footer start*/
+
+footer{background-color: black; color: white; font-size: 20px;}
